@@ -10,7 +10,7 @@ DAEMON_BINARY="xumad"
 CLI_BINARY="xuma-cli"
 DAEMON_BINARY_FILE="/usr/local/bin/$DAEMON_BINARY"
 CLI_BINARY_FILE="/usr/local/bin/$CLI_BINARY"
-GITHUB_REPO=${1:-"https://github.com/xumacoin/xuma-core/releases/download/v1.3.0.5/XUMA-Linux64-v1.3.0.5.zip"}
+GITHUB_REPO=${1:-"https://github.com/xumacoin/xuma-core/releases/download/1.4.0.3/XUMA-Ubuntu-16.04-64bit-noQT-1.4.0.3.zip"}
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
