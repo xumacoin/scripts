@@ -20,7 +20,7 @@ Shell scripts to install and remove a [Xuma Masternode](https://bitcointalk.org/
 
 ## Installation 
 ```
-wget -q https://raw.githubusercontent.com/click2install/xumacoin/master/install-xuma.sh  
+wget -q https://raw.githubusercontent.com/xumacoin/scripts/master/install-xuma.sh
 bash install-xuma.sh
 ```
 
