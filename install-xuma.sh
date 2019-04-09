@@ -101,10 +101,9 @@ function deploy_binary()
     cd $TMP_FOLDER
     echo -e "${GREEN}Downloading binaries from the Xuma GitHub repository at ${GITHUB_REPO}.${NC}"
 
-    local archive=xuma.zip
-    wget ${GITHUB_REPO} -O ${archive}
+    wget ${GITHUB_REPO} -O xuma.zip
 
-    unzip -j ${archive} >/dev/null 2>&1
+    unzip -j xuma.zip >/dev/null 2>&1
     cp ${DAEMON_BINARY} ${CLI_BINARY} /usr/local/bin/
     chmod +x ${DAEMON_BINARY_FILE} >/dev/null 2>&1
     chmod +x ${CLI_BINARY_FILE} >/dev/null 2>&1
